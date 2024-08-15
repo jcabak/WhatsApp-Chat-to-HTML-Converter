@@ -1,4 +1,4 @@
-# Chat Log to HTML Converter
+# WhatsApp Chat Log to HTML Converter
 
 This Python script converts WhatsApp chat logs from `_chat.txt` files into formatted HTML files. It processes the chat logs to display messages and attachments in a readable format, assigning unique colors to different users and creating clickable thumbnails for images and videos.
 
@@ -8,12 +8,10 @@ This Python script converts WhatsApp chat logs from `_chat.txt` files into forma
 - **Thumbnail Generation**: Images and videos are displayed with a thumbnail preview. Clickable links allow users to view full-size versions or play videos in a new tab.
 - **Dynamic HTML Title**: The HTML title is set based on the name of the parent folder, providing context for each chat log.
 - **Attachment Handling**: Supports common image formats (`.jpg`, `.jpeg`, `.png`, `.gif`) and video formats (`.mp4`, `.mov`, `.webm`).
-- **Group Chats Support**: The script handles group chat logs, distinguishing between different group members and displaying their messages accordingly.
 
 ## Prerequisites
 
 - Python 3.x
-- Required Python libraries: None (standard library only)
 
 ## Usage
 
